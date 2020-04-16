@@ -1,0 +1,52 @@
+# Automatically generated on 2020-04-16 UTC from http://localhost:3000/app/5e9860c3f96103000b3bf632/settings
+# Note that this configuration is not an exact match to UI settings. Review and adjust as necessary.
+
+workflows:
+  default-workflow:
+    name: Default Workflow
+    environment:
+      vars:
+        CERTIFICATE_PRIVATE_KEY: Encrypted(Z0FBQUFBQmVtR1hkTUpNc1dkbFpBVXBHc2huWHptY3g3bVZ2S25PU3NJR052LUp2RGpBSHNybm9xeUNwWEh5TEtCNlY0d0hybWt5MWRWZDRRMmYydTh2Q0pCN3lRMThYX3VEbl9iLVBINVZsMTdQQllFbkEyTm54SmFWd280UEVLMlVVOGVKMHhEUUwxeGI3dkMwRUp6MmNyeTFfVWlhQUIzOFFJWWI0NHRVeUFQc09JTkQ5MEVTTm1kZUJocUxjOUU0WVYwQndXM0VRYkd2bjA4aDR3b3JMT1pXVTdVTzR1NE9Cc0RhQ1hYZ0JEZHlzNnJDa3Z0V05HS0l3al80ZkYybEdYVFFpWmJ1ZnNhRjBYVWpXbzJfTURfWWxGR2U1SkQwdkxSZXFXTVpiX083NFA0TUFzZ3FTSWJjQ0FPOVlFU0RKc3F0QWd5ZUNrUmp0ZmVqVTZiRnYwbEVjNTBhMWlVa09DaUxNUTd2RlBRcTBmSGtrR0NDbGRtNkVncFNWbFBMeFhJMGZRaUYwdDd0RGRhajZ1ZVhWM2FEX211MEF2aExkbnZZVDU4RC14Zk5DRS1veWZpLVROd1dmeFVtcDVwVERyalRFS0xHS2s4U192MTdQRTlFTnhSdWZ0YzRvRm1obGh5Y05fS2xmZTRWSWNmRjU1dnI1ZGpPd29KR1RUNXVvbDR0aGtzRFZNSnRjSXhMdHdKeFZncTFyQ0dCb1dtTzIxTktPZ3lPMWtUWWFzT3AtczUta1FxaTF6R0NmT3FwdFVhV3NhMnpHOFJCTEJ5NG16Y2NIVzZFWm42WjhhbUgtQjJOYkhlMWFYakxWb1JVZnBVZ21ERGVpQXBEaDBrTi1pRFgyN0VYTXNGTnI4T3RxbkFNZ0hReGswWEsyQ1FxdVhRTUJlTWIzTFl5UGZ6Zy1PY28zQ3hTRVlGRWoyQ1JUbXRhMHU2eTNpRlY1czBIYkRGekt3NGhfb3Q4YXJXWllZZnEwRHNCNmdpNjlKZTBvcHVjYUx0TUs2dHNqZGRRd0tlR1BKNm9lY1ZJN08wSm9xelUxdGdsdEdFUUUwTE5DbU1Yb3g4alY0Y1RzczV3clpTMlVReXVjUXhnaU1EcmxNMzVZcG4wdzZ1MlBFdXRqN0tja282azRNMTdPalVPNlpKbGtKdDRJSi0tYjY0eWFfSm5nMjc4TGNfTUZDdjZFMXZzMmw4R3VDdUo4UFZhSUgxSVpEVlZBbXFKQ1pHRVB4aVo3QmtVaUpJTmM0T0VVTUZYSk1UU2poLThCREUwQU5ObUYza0R3RDdQVGpNOU1xVTlIckVRQ3F5bGl3dWtuVmo4WENVSmY4ZDlfUGZ5REtlbVdjTThOYUF0NEZuZmUxYVZIU3ltckEzeFBCNFpmZG1MYldHLTBCMUI5ZE4yaXlhMnNPMkRqSjNOb0R2eEJBYjBKY2xZWkNybTE2TzZhQ3U2U25PMm0yVThTM05SOW1Ydi1RSUNqUjRhTXd6WFFXRTBVU3FObVZRN2JadU84eWFpaGdUZ0dSOHYxZk10WjI0OXJPTmhKNHloeF94NmJKZlpTMjJGUGhIV1duUDdidUQ4b1hmdlk2YU5oNno2bmpicjBnQzRxbFg5amxNUWZRbnJIUzJiYjM3TlVTMnQxazJZYk8xLXF1NWFTTEY5UkVjUWNIMGg1MjNXX3dXVU5HekZFb252R25IOEhxenc0dUhPbklzSzY2UG1TbV9OYkpkOVB6UXZXMUlNUVFSRmZKLURJYTRiVGFsZWVxQjdBVWZzbkhtS2I5ZGpWVENqaGtFX1NHRGw4STdYZGVVV09la1kydWpZazhUckliTUVWcXljTEQtZ1NxLTZvc09rcWNlNU5mSEcycWhvUkhCaTVTc215NXRfVmxJT2YxNEMzZVZuX0tOaXo3U0p0ZHVhTUljb3UzcnAwaTNDUUVpUjVmbWp6VVJxbUJ5d2RtdUtpSDNvc2pYTHVvaThyTXNEY3padFRNMENFWERtX3V3T3dSN3gwNTlzZUg5bEhpeUJJMlhhQXBEU0R5U0pZbF9laEg3UnZJSU5oTktzTWZzNUFoZHF3by1wMGowWFFhZUlTNXdwM3NQdzh4UEVyVHhDMUZESi00ZUotR2lGVnkxRnZvRHF5YkQ2TExuWDdhbzduTFpRYUJRNkdfN3RwN0VzQ3kxdmd2NHZkWmxDUnNramxlSGF1TUNQQTJoX0daOWJMYzhYcFZMaHVjX3VEZFExYVBPak9xVXd5dWlEaW5NYlJLd0JEY0o1RVdEdU1TR09WUVlDSlcxRFBad0dKX1Njak1STHhjOGd6MTdhNk1CcDkwYTVzZkYtWHNxTmd0ZG9vdnktb01fejZnX2U0QVlNWXBneTBaWGI1MzVqczExY29za2thZmdTaUVkci1MVUg3R2ppNGVLXzFsY1BfSFEtRXV0dmFLeUhndU15NUFaRE95NnZiWmxYZGVoZjFJZVNlaWoyZXhvRmRKNDFwejZ4V21qLUs1WUVOYmNjeHUxYVBqTldmYnBRMjd2dV9tRWZfaXYyZTliZlVNcHlfNVFCOGZaQ2JoekpRZnhHQ0xMM21Sc2JFYTVsSzNMeFpJX0ltODhuV2ZfN1lpLWhZeE1KUldJaGpDVEQ2SG1ORm5mMDJxWG1iVGYzZV9TS0k4UWhEa19XMVk3YVgxSHhESnVocWpVZWZsS2xvTGtWYXNYTnpreWVNZkhHc0hRMGNRN1Ywa1YzZDJ0RFJWTEwxRHFiRHF2SGZJNFVGT2tTQ1V2YlBwYktaQ2Q5X2JsWjFVUWppRkgzN0Fkakd2dUN0ci1XamRwV0V6NWIzQ3R6NHdSSnU4N3Nqc2ZDdkthVER4NEhaMUQ2QnlUcF8yZ2tnc1VrUlRVZnVEVDBOWDczcnpnMFNTREc1eEduTEpRMURaWWwtbUUxbzV3WU9iV0hEZWFlZm0xSHhLRGtVTDIzdVJkS05kY21oM3c0RFNvX2pjUGJjUUhxUlh0djhkYm4tR2NLcFctTEEzNDNycXFsdi1HS1FVdTdjUE9jb0NERTlLMWNNYjYzRlpDTV9ud0xMVzZFNzlQazRwd1E0)
+        APP_STORE_CONNECT_ISSUER_ID: Encrypted(Z0FBQUFBQmVtR1hkV2pHS3g0QXppMTRlYTNyMGxERzBRUzBBdkMtMnNUQVE4X1phYmZOdkFlRkdMWXdDaWU1Q0NoT0FNaXJBZUppb2d1RzA3UEZQODM5TTd6TDVnVWo2d0djM2ppNzRZN09RSmpPbjAxN2lyZUg0Y3RWaHNvNlNUekRjM3ZhZ1RNZ28=)
+        APP_STORE_CONNECT_KEY_IDENTIFIER: Encrypted(Z0FBQUFBQmVtR1hkRDFhVnFVOXNjTWcxZW5EYXVnSGpNXzEzRUNCM1JjbWFRalp3LTFVTUN5dUhKcEV5SGkxb25LMnV0anU2UWFsMlRRYmI3ZkdzZ25GdEd2RlpGWWpwVUE9PQ==)
+        APP_STORE_CONNECT_PRIVATE_KEY: Encrypted(Z0FBQUFBQmVtR1hkMml0WHNiZHhkMDhqOWRYUkJHM3pZdXRybTBtOE8taEdtZjVJemRramVxSlJ2Q3ZPd0FRdlhGZzQzYnJVczJ6dlphX2dJVG94YXQwZXliZmxEbXhSVmVtS0ZRN1B0V1NmdmJXOTNuX0ZwTHZublpTQ2ZSeWV4WldYX19vTE5CSncyTElTV3F2cWZJV3RsSUxTRzFlN3g4R2c4aHoxY2hMOVBOV2RtdGNNUC1WR2YxZnk1MXQtOGJMNVZoUmdPdmY4bWpOUVdIZGEzMDRQcUR6ZHhSNFhLTTIzNXJaU2ppUl9laDI1SWFBTzlxYm1RTEN5VlRYY0M2bVhhbEhMUmN0QzdIa0ZZTWd6Uy1Db3N3ZS05aTNqZFlsSVRUTS12dnMwbU1mSVZaUk1PSkJLdzVqTzZRNHdEVTB4U0RweS1BcG5EQ20yc1NsektGRzJyMHBBaHpLTm5GQXctaFQ1WWNYTk8tTVA0UXpOTlJxNE0xY2xSejZlR2VnZDU2V21CamloSFJweGpLeW9Sdzl5RDNYVTdBaVVtX2J3ODZyUDJucWE4N2JEUlZFamtnST0=)
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - |
+        # set up debug keystore
+        rm -f ~/.android/debug.keystore
+        keytool -genkeypair \
+          -alias androiddebugkey \
+          -keypass android \
+          -keystore ~/.android/debug.keystore \
+          -storepass android \
+          -dname 'CN=Android Debug,O=Android,C=US' \
+          -keyalg 'RSA' \
+          -keysize 2048 \
+          -validity 10000
+      - |
+        # set up local properties
+        echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
+      - flutter packages pub get
+      - flutter build apk --debug
+      - find . -name "Podfile" -execdir pod install \;
+      - keychain initialize
+      - app-store-connect fetch-signing-files "$(xcode-project detect-bundle-id)"
+        --type IOS_APP_DEVELOPMENT --create
+      - keychain add-certificates
+      - flutter build ios --debug --no-codesign
+      - xcode-project use-profiles
+      - xcode-project build-ipa --workspace "ios/Runner.xcworkspace" --scheme "Runner"
+    artifacts:
+      - build/**/outputs/**/*.apk
+      - build/**/outputs/**/*.aab
+      - build/**/outputs/**/mapping.txt
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - flutter_drive.log
+    publishing:
+      email:
+        recipients:
+          - arunacande@gmail.com
