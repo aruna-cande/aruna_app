@@ -1,4 +1,4 @@
-# Automatically generated on 2020-07-30 UTC from http://localhost:3000/app/5f19b106c0be6c0011efb661/settings
+# Automatically generated on 2020-07-31 UTC from http://localhost:3000/app/5f23fb15c0be6c001078d194/settings
 # Note that this configuration is not an exact match to UI settings. Review and adjust as necessary.
 
 workflows:
@@ -7,12 +7,11 @@ workflows:
     max_build_duration: 60
     environment:
       flutter: stable
-      xcode: 11.4.1
+      xcode: latest
       cocoapods: default
     cache:
       cache_paths:
         - $HOME/.gradle/caches
-        - $FLUTTER_ROOT/.pub-cache
     scripts:
       - |
         # set up debug keystore
@@ -31,14 +30,10 @@ workflows:
         echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
       - flutter packages pub get
       - flutter build apk --debug
-      - find . -name "Podfile" -execdir pod install \;
-      - flutter build ios --debug --no-codesign
     artifacts:
       - build/**/outputs/**/*.apk
       - build/**/outputs/**/*.aab
       - build/**/outputs/**/mapping.txt
-      - build/ios/ipa/*.ipa
-      - /tmp/xcodebuild_logs/*.log
       - flutter_drive.log
     publishing:
       email:
