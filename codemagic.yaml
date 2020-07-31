@@ -1,4 +1,4 @@
-# Automatically generated on 2020-07-31 UTC from https://staging.codemagic.io/app/5f24207dc114f3000126548c/settings
+# Automatically generated on 2020-07-31 UTC from https://staging.codemagic.io/app/5f2423ddc114f300012654a6/settings
 # Note that this configuration is not an exact match to UI settings. Review and adjust as necessary.
 
 workflows:
@@ -30,10 +30,14 @@ workflows:
         echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
       - cd . && flutter packages pub get
       - cd . && flutter build apk --debug
+      - find . -name "Podfile" -execdir pod install \;
+      - cd . && flutter build ios --debug --no-codesign
     artifacts:
       - build/**/outputs/**/*.apk
       - build/**/outputs/**/*.aab
       - build/**/outputs/**/mapping.txt
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
       - flutter_drive.log
     publishing:
       email:
