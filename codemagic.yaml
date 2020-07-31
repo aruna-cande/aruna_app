@@ -1,4 +1,4 @@
-# Automatically generated on 2020-07-31 UTC from http://localhost:3000/app/5f23fb15c0be6c001078d194/settings
+# Automatically generated on 2020-07-31 UTC from https://staging.codemagic.io/app/5f24207dc114f3000126548c/settings
 # Note that this configuration is not an exact match to UI settings. Review and adjust as necessary.
 
 workflows:
@@ -28,8 +28,8 @@ workflows:
       - |
         # set up local properties
         echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
-      - flutter packages pub get
-      - flutter build apk --debug
+      - cd . && flutter packages pub get
+      - cd . && flutter build apk --debug
     artifacts:
       - build/**/outputs/**/*.apk
       - build/**/outputs/**/*.aab
