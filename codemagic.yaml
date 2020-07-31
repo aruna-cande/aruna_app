@@ -1,4 +1,4 @@
-# Automatically generated on 2020-07-31 UTC from https://staging.codemagic.io/app/5f2423ddc114f300012654a6/settings
+# Automatically generated on 2020-07-31 UTC from https://staging.codemagic.io/app/5f242c5bc114f300012654ff/settings
 # Note that this configuration is not an exact match to UI settings. Review and adjust as necessary.
 
 workflows:
@@ -12,6 +12,7 @@ workflows:
     cache:
       cache_paths:
         - $HOME/.gradle/caches
+        - $FLUTTER_ROOT/.pub-cache
     scripts:
       - |
         # set up debug keystore
