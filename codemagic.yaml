@@ -1,4 +1,4 @@
-# Automatically generated on 2020-07-31 UTC from https://staging.codemagic.io/app/5f242c5bc114f300012654ff/settings
+# Automatically generated on 2020-08-12 UTC from http://localhost:3000/app/5f33f19f5de235004daffd1d/settings
 # Note that this configuration is not an exact match to UI settings. Review and adjust as necessary.
 
 workflows:
@@ -12,7 +12,6 @@ workflows:
     cache:
       cache_paths:
         - $HOME/.gradle/caches
-        - $FLUTTER_ROOT/.pub-cache
     scripts:
       - |
         # set up debug keystore
@@ -31,14 +30,47 @@ workflows:
         echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
       - cd . && flutter packages pub get
       - cd . && flutter build apk --debug
-      - find . -name "Podfile" -execdir pod install \;
-      - cd . && flutter build ios --debug --no-codesign
     artifacts:
       - build/**/outputs/**/*.apk
       - build/**/outputs/**/*.aab
       - build/**/outputs/**/mapping.txt
-      - build/ios/ipa/*.ipa
-      - /tmp/xcodebuild_logs/*.log
+      - flutter_drive.log
+    publishing:
+      email:
+        recipients:
+          - arunacande@gmail.com
+  default-workflow-(copy):
+    name: Default Workflow (Copy)
+    max_build_duration: 60
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+    cache:
+      cache_paths:
+        - $HOME/.gradle/caches
+    scripts:
+      - |
+        # set up debug keystore
+        rm -f ~/.android/debug.keystore
+        keytool -genkeypair \
+          -alias androiddebugkey \
+          -keypass android \
+          -keystore ~/.android/debug.keystore \
+          -storepass android \
+          -dname 'CN=Android Debug,O=Android,C=US' \
+          -keyalg 'RSA' \
+          -keysize 2048 \
+          -validity 10000
+      - |
+        # set up local properties
+        echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/android/local.properties"
+      - cd . && flutter packages pub get
+      - cd . && flutter build apk --debug
+    artifacts:
+      - build/**/outputs/**/*.apk
+      - build/**/outputs/**/*.aab
+      - build/**/outputs/**/mapping.txt
       - flutter_drive.log
     publishing:
       email:
